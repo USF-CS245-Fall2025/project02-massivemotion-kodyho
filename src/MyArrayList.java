@@ -5,10 +5,6 @@
 * 10/20/25
 * 
 * Arraylist implementation of the List interface
-* - I believe that Arraylist is the optimal implementation for this project
-* - This is because we do not care about the order of bodies, and we will be doing
-* - a lot of random access and iteration through the list when deleteing, which Arraylist handles best.
-* - nothing new here, just standard arraylist implementation
 */
 
 /**

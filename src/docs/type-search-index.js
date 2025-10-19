@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Body"},{"p":"<Unnamed>","l":"List"},{"p":"<Unnamed>","l":"MassiveMotion"},{"p":"<Unnamed>","l":"MyArrayList"},{"p":"<Unnamed>","l":"MyDoublyLinkedList"},{"p":"<Unnamed>","l":"MyDummyHeadLinkedList"},{"p":"<Unnamed>","l":"MyLinkedList"}];updateSearchResults();

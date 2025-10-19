@@ -69,7 +69,7 @@ public class MassiveMotion extends JPanel implements ActionListener {
         bodyMass   = Double.parseDouble(props.getProperty("body_mass"));
         bodyVel    = Double.parseDouble(props.getProperty("body_velocity"));
 
-        bodies = new MyArrayList<>();
+        bodies = new MyLinkedList<>();
         rand = new Random();
 
         // Add the star
@@ -100,7 +100,7 @@ public class MassiveMotion extends JPanel implements ActionListener {
 
         // Remove off-screen comets (not the star)
         Body star = bodies.get(0);
-        for (int i = bodies.size() - 1; i >= 1; i--) { // iterate backwards to safely remove
+        for (int i = bodies.size() - 1; i >= 1; i--) { // iterate backwards to safely remove (a relic of when i use arraylist)
             if (bodies.get(i).isOffScreen(windowX, windowY)) {
                 bodies.remove(i);
             }

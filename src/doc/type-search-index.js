@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Body"},{"p":"<Unnamed>","l":"List"},{"p":"<Unnamed>","l":"MassiveMotion"},{"p":"<Unnamed>","l":"MyArrayList"}];updateSearchResults();
