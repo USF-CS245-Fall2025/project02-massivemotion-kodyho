@@ -1,3 +1,22 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/J_c8sizy)
-# MassiveMotion
-CS 245 Project 02
+# PROJECT 02
+
+FILE DESCRIPTIONS
+
+MassiveMotion.java
+> The main file handles the primary program functions like creating ui and animation.
+
+List.java
+> The interface that came with the skeleton program
+ 
+MyArrayList.java
+> A standard implementation of ArrayList
+
+Body.java
+> A file outlining the Body class used to create celestial bodies.
+
+
+HOW TO RUN
+
+javac MassiveMotion.java
+java MassiveMotion MassiveMotion.txt
+
