@@ -92,7 +92,7 @@ public class MassiveMotion extends JPanel implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e) { // for the epoch timer updates
         // Update all bodies
         for (int i = 0; i < bodies.size(); i++) {
             bodies.get(i).update();
@@ -146,7 +146,7 @@ public class MassiveMotion extends JPanel implements ActionListener {
             System.out.println("Spawned comet. Total bodies: " + bodies.size());
         }
     }
-
+    
     public static void main(String[] args) {
         if (args.length < 1) {
             System.err.println("expected config file as argument");
