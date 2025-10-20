@@ -57,10 +57,12 @@ ADDRESSING THE RUBRIC
 IMPLEMENTATION
 > print statements are used to ensure the proper function of the program.
 > defining a random seed during the testing of the program to ensure repeatability to compare changes.
+
 EFFICIENCY
 > seen above, but LinkedList is optimal because of the constant adding and removal.
 > I initially thought ArrayList but removal requires items to be shifted down the array. 
 > I didn't do anything big with performance optimization, and i think it could certainly slow down as the bodies increase, but current technology proves that this would probably noticeably occur at much higher counts.
+
 DECOMPOSITION
 > I break the problem down by usual. I tackle small portions first. For this project, it was the lists, creating the canvas, then the bodies, then getting the movement down.
 > Each class is designed to be easily read. The important work is done by MassiveMotion and anything specific gets it's own class like the lists or the body.
